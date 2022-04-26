@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "SuggestionFixMod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This mod fixes MC-165562.",
   "authors": [
     "Jorel Ali"
   ],
   "contact": {
-    "homepage": "https://github.com/JorelAli/MinecraftRegexArgumentMod",
-    "sources": "https://github.com/JorelAli/MinecraftRegexArgumentMod"
+    "homepage": "https://github.com/JorelAli/SuggestionFixMod",
+    "sources": "https://github.com/JorelAli/SuggestionFixMod"
   },
 
   "license": "CC0-1.0",
