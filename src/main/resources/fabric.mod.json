@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "suggestionfixmod",
   "version": "${version}",
-
   "name": "SuggestionFixMod",
   "description": "This mod fixes MC-165562.",
   "authors": [
@@ -10,29 +9,20 @@
   ],
   "contact": {
     "homepage": "https://github.com/JorelAli/SuggestionFixMod",
-    "sources": "https://github.com/JorelAli/SuggestionFixMod"
+    "sources": "https://github.com/JorelAli/SuggestionFixMod",
+    "issues": "https://github.com/JorelAli/SuggestionFixMod/issues",
+    "email": "suggestionfixmod@jorel.dev"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/suggestionfixmod/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "dev.jorel.suggestionfixmod.SuggestionFixMod"
-    ]
-  },
+  "environment": "client",
   "mixins": [
     "suggestionfixmod.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
