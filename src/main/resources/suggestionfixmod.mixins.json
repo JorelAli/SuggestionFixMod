@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "dev.jorel.suggestionfixmod.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [],
+    "client": [
+        "SuggestionMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

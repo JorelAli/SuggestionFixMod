@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "suggestionfixmod",
+  "version": "${version}",
+
+  "name": "SuggestionFixMod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Jorel Ali"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JorelAli/MinecraftRegexArgumentMod",
+    "sources": "https://github.com/JorelAli/MinecraftRegexArgumentMod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/suggestionfixmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.jorel.suggestionfixmod.SuggestionFixMod"
+    ]
+  },
+  "mixins": [
+    "suggestionfixmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
